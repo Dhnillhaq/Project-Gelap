@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 /**
  * Main
- * Deskripsi:    
+ * Deskripsi:
  * Sesuai dengan namanya, Main.java dibuat sebagai PROGRAM UTAMA dari beberapa
  * file.
  * Program ini digunakan untuk memanggil Class-class lain yang berada di luar
@@ -34,7 +34,7 @@ public class Main {
 
         // Variabel Cari Buku (Case 4)
         String cariBuku, result = "";
-        String[] arrayListBuku = {"Malin Kundang", "Negeri 5 Menara", "Perahu Kertas"};
+        String[] arrayListBuku = { "Malin Kundang", "Negeri 5 Menara", "Perahu Kertas" };
 
         // Variabel Meminjam buku digital (Case 5)
         String buku, tipe;
@@ -42,6 +42,7 @@ public class Main {
 
         // Variabel inputan Username dan Password
         String username, password;
+        int kesempatanLogin = 5;
 
         // Variabel UI
         String separator = "\n\n--------------------------------------------------------";
@@ -62,7 +63,7 @@ public class Main {
 
         // WAJIB Login sebelum masuk
         do {
-            for (int i = 4; i > 0; i--) {
+            kesempatanLogin--;
             System.out.println("\nSilahkan verifikasi diri anda terlebih dahulu\n");
             System.out.print("Username: ");
             username = input.nextLine();
@@ -75,14 +76,25 @@ public class Main {
                     canLogin = true;
                 isLogin = true;
 
-            }
-            // Jika salah
+            }// Jika salah
+            else if (kesempatanLogin > 0) {
+                System.out.println("\033[H\033[2J");
+                System.out.println("=================================================");
+                System.out.println("=================================================");
+                System.out.println("Maaf, tidak ada Username dengan password tersebut.");
+                System.out.println("         Coba lagi,Kesempatan Tersisa - " + kesempatanLogin + "x");
+                System.out.println("=================================================");
+                System.out.println("=================================================");
+                isLogin = false;
+            } // Jika kesempatan habis
             else {
                 System.out.println("\033[H\033[2J");
-                System.out.println("\nMaaf, tidak ada Username dengan password tersebut.");
-                System.out.println("Coba lagi, Sisa Kesempatan Anda adalah = "+i+"x");
-                    isLogin = false;
-                }
+                System.out.println(separator);
+                System.out.println("\n\nKESEMPATAN LOGIN ANDA TELAH HABIS!");
+                System.out.println("         COBA LAGI NANTI :D         ");
+                System.out.println(separator);
+                isLogin = false;
+                return;
             }
         } while (!isLogin);
         if (canLogin) {
@@ -118,7 +130,6 @@ public class Main {
                         System.out.println(temaBuku1);
                         System.out.print("\nJumlah buku yang ingin dipinjam?\n$> ");
                         pilihBuku = input.nextInt();
-
 
                         // Melakukan pengurangan
                         stokBukuAkademik -= pilihBuku;
@@ -262,28 +273,27 @@ public class Main {
 
                         // // Menampilkan buku sesuai inputan user
                         // if (cariBuku.equalsIgnoreCase(namaBuku1)) {
-                        //     System.out.println("");
-                        //     System.out.println("Hasil Penelusuran Kami: \n");
-                        //     System.out.println(namaBuku1);
-                        //     System.out.println(pengarangBuku1);
-                        //     System.out.println(jumlahHalBuku1);
+                        // System.out.println("");
+                        // System.out.println("Hasil Penelusuran Kami: \n");
+                        // System.out.println(namaBuku1);
+                        // System.out.println(pengarangBuku1);
+                        // System.out.println(jumlahHalBuku1);
                         // } else if (cariBuku.equalsIgnoreCase("Buku Akademik")
-                        //         || cariBuku.equalsIgnoreCase("akademik")) {
-                        //     System.out.println("");
-                        //     System.out.println("Hasil Penulusaran Kami: \n");
-                        //     System.out.println("[stok " + stokBukuAkademik + "]");
-                        //     System.out.println(temaBuku1);
+                        // || cariBuku.equalsIgnoreCase("akademik")) {
+                        // System.out.println("");
+                        // System.out.println("Hasil Penulusaran Kami: \n");
+                        // System.out.println("[stok " + stokBukuAkademik + "]");
+                        // System.out.println(temaBuku1);
                         // } else if (cariBuku.equalsIgnoreCase("Buku Non-Akademik")
-                        //         || (cariBuku.equalsIgnoreCase("Non-Akademik"))) {
-                        //     System.out.println("");
-                        //     System.out.println("Hasil Penulusan Kami: \n");
-                        //     System.out.println("[stok " + stokBukuNonAkademik + "]");
-                        //     System.out.println(temaBuku2);
+                        // || (cariBuku.equalsIgnoreCase("Non-Akademik"))) {
+                        // System.out.println("");
+                        // System.out.println("Hasil Penulusan Kami: \n");
+                        // System.out.println("[stok " + stokBukuNonAkademik + "]");
+                        // System.out.println(temaBuku2);
                         // } else {
-                        //     System.out.println("\nMaaf,Buku tidak tersedia");
+                        // System.out.println("\nMaaf,Buku tidak tersedia");
 
                         // }
-
 
                         // Ver 2 using Array 1 Dimension
                         input.nextLine();
@@ -300,7 +310,7 @@ public class Main {
                         // Proses pencarian
                         for (int i = 0; i < arrayListBuku.length; i++) {
                             if (cariBuku.equalsIgnoreCase(arrayListBuku[i])) {
-                                result = "\nJudul buku ditemukan!\n---------------\n"+arrayListBuku[i];
+                                result = "\nJudul buku ditemukan!\n---------------\n" + arrayListBuku[i];
                                 break;
                             } else {
                                 result = "\nMaaf,Buku tidak tersedia\n---------------\n*kosong";
