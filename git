@@ -1,0 +1,277 @@
+[33mcommit eb8190f1d868a158084143086325cb5fefb9d252[m[33m ([m[1;36mHEAD -> [m[1;32mDhanil[m[33m)[m
+Author: Dhnillhaq <yakulhaq@gmail.com>
+Date:   Fri Oct 27 06:42:21 2023 +0700
+
+    Try
+
+[33mcommit b6290fc0474ae58b66751b76c941bfe0316c2b51[m
+Merge: 5915dea c3acef3
+Author: Muhammad Dhia Ramadhanil Haq <yakulhaq@gmail.com>
+Date:   Thu Oct 19 15:33:24 2023 +0700
+
+    Merge branch 'main' into Dhanil
+
+[33mcommit 5915dea2fe5d93c4772b5e93a245aa0a669d164c[m
+Author: Dhnillhaq <yakulhaq@gmail.com>
+Date:   Thu Oct 19 15:30:14 2023 +0700
+
+    chore:Fix Login Feature
+
+[33mcommit c3acef3abbb29ddfb50eb538c0260062dc8269c5[m
+Merge: adadf79 0532518
+Author: Dhanil <yakulhaq@gmail.com>
+Date:   Tue Oct 17 18:58:59 2023 +0700
+
+    Merge pull request #22 from Dhnillhaq/Dhanil
+    
+    chore:Fixed Readme.md & Readme.en.md
+
+[33mcommit 0532518f991d5c62e47e774c44d3eef22acaa5b3[m
+Author: Dhanil <yakulhaq@gmail.com>
+Date:   Tue Oct 17 14:03:17 2023 +0700
+
+    chore:Update README.en.md
+
+[33mcommit f7344fe1d06dff94bb313a849bbab9edd28d0e6b[m
+Author: Dhanil <yakulhaq@gmail.com>
+Date:   Tue Oct 17 14:00:57 2023 +0700
+
+    Chore:Update README.md(Newest)
+
+[33mcommit 11ceeac88fffc4e1cee982e8e857ca215df7f3a9[m
+Author: Dhanil <yakulhaq@gmail.com>
+Date:   Tue Oct 17 06:59:06 2023 +0700
+
+    Update README.md
+
+[33mcommit f96f69a2b479042c34e25d3a4a0954bbff235a20[m
+Author: Dhanil <yakulhaq@gmail.com>
+Date:   Tue Oct 17 06:58:12 2023 +0700
+
+    Update README.md
+
+[33mcommit dd3eacd5de2e8595bb40850d4a6747ee5bb96994[m
+Author: Dhanil <yakulhaq@gmail.com>
+Date:   Tue Oct 17 06:55:42 2023 +0700
+
+    chore:Update README.md
+
+[33mcommit adadf7911d956a106b71ac0ffedb2176bf1f6485[m
+Merge: b1c5b7a 728e029
+Author: Dhanil <yakulhaq@gmail.com>
+Date:   Mon Oct 16 20:24:12 2023 +0700
+
+    Merge pull request #21 from Khip01/Aakhif
+    
+    Adding a space
+
+[33mcommit 728e0297be6ca940070edafaff6d7d4a99006186[m
+Author: Khip01 <aakhifathallah24@gmail.com>
+Date:   Mon Oct 16 20:18:31 2023 +0700
+
+    test 123
+
+[33mcommit b1c5b7a736755a2dd2d6921d0dc3a0fe2ca7f3e9[m
+Author: Dhnillhaq <yakulhaq@gmail.com>
+Date:   Mon Oct 16 20:03:17 2023 +0700
+
+    Fixed Book Search Feature
+
+[33mcommit 244f148f57bcec7d8b333c710f1777483991e011[m
+Author: Dhnillhaq <yakulhaq@gmail.com>
+Date:   Mon Oct 16 19:59:09 2023 +0700
+
+    Added Non-Academic Book
+
+[33mcommit 6de66430c4647ee3cbe3a979c02735c970e22861[m
+Merge: 01217b9 28b0b3d
+Author: Akhmad Aakhif A <89376322+Khip01@users.noreply.github.com>
+Date:   Mon Oct 16 12:32:23 2023 +0700
+
+    Merge pull request #20 from Khip01/Dhanil
+    
+    Fix Dhanil Code
+
+[33mcommit 28b0b3daa9757a3273e85b02210d3ca921b23940[m
+Merge: aba2958 01217b9
+Author: Khip01 <aakhifathallah24@gmail.com>
+Date:   Mon Oct 16 12:30:59 2023 +0700
+
+    Fix Dhanil Code
+
+[33mcommit 01217b9b90f6a03cd78fb53cb5a43f3ac647b2cf[m
+Merge: 6c85803 a3a0bfe
+Author: Akhmad Aakhif A <89376322+Khip01@users.noreply.github.com>
+Date:   Mon Oct 16 12:18:48 2023 +0700
+
+    Merge pull request #19 from DanendraPassadhi/Danendra
+    
+    tes
+
+[33mcommit a3a0bfec0c8e6eb14f6b0cbce25d766bc73776f7[m
+Merge: f8058d9 6c85803
+Author: Akhmad Aakhif A <89376322+Khip01@users.noreply.github.com>
+Date:   Mon Oct 16 12:18:16 2023 +0700
+
+    Merge branch 'main' into Danendra
+
+[33mcommit f8058d91043ca54a02c2e79ac651ec44d87874c1[m
+Author: DanendraPassadhi <danendra.passadhi71@gmail.com>
+Date:   Mon Oct 16 12:16:13 2023 +0700
+
+    tes
+
+[33mcommit aba295885c0fb7337cc0045364421faaee32d1f3[m
+Author: Khip01 <aakhifathallah24@gmail.com>
+Date:   Mon Oct 16 11:37:11 2023 +0700
+
+    fix: bug scanner
+
+[33mcommit 6c85803afbb2bc3c5c918938b974605c74ecc512[m
+Merge: a9d6873 93d7eba
+Author: Akhmad Aakhif A <89376322+Khip01@users.noreply.github.com>
+Date:   Mon Oct 16 11:30:27 2023 +0700
+
+    Merge pull request #18 from Dhnillhaq/Aakhif
+    
+    Merge pull request #16 from Dhnillhaq/main
+
+[33mcommit a9d68732e2b987cf8b95da0535343d0b161593bc[m
+Merge: 2241bc9 69ad22c
+Author: Akhmad Aakhif A <89376322+Khip01@users.noreply.github.com>
+Date:   Mon Oct 16 11:30:02 2023 +0700
+
+    Merge pull request #17 from Dhnillhaq/Dhanil
+    
+    Merge pull request #15 from Dhnillhaq/main
+
+[33mcommit 93d7ebaa1defffe11eda8e71eb5e8d2b2bcd84fa[m
+Merge: 56c7a42 2241bc9
+Author: Akhmad Aakhif A <89376322+Khip01@users.noreply.github.com>
+Date:   Mon Oct 16 11:29:27 2023 +0700
+
+    Merge pull request #16 from Dhnillhaq/main
+    
+    Update Branch Aakhif
+
+[33mcommit 69ad22ca6c78b9dd8d878aeb47710416377c6835[m
+Merge: d2524e1 2241bc9
+Author: Akhmad Aakhif A <89376322+Khip01@users.noreply.github.com>
+Date:   Mon Oct 16 11:27:33 2023 +0700
+
+    Merge pull request #15 from Dhnillhaq/main
+    
+    Update Branch Dhanil
+
+[33mcommit 2241bc9cced53e4db18b85f745c77df5641db848[m
+Merge: e7fcfc1 04779ce
+Author: DanendraPassadhi <143127813+DanendraPassadhi@users.noreply.github.com>
+Date:   Mon Oct 16 11:22:07 2023 +0700
+
+    Merge pull request #14 from DanendraPassadhi/main
+    
+    fix bug
+
+[33mcommit 90b4d37d13105948aedf139a9d455fe345587e93[m
+Merge: d93a82d cb940fb
+Author: DanendraPassadhi <143127813+DanendraPassadhi@users.noreply.github.com>
+Date:   Mon Oct 16 11:14:22 2023 +0700
+
+    Merge pull request #13 from DanendraPassadhi/Danendra
+    
+    fix bug
+
+[33mcommit 04779ce0867b4c737e02d3baaaeaff916c56a1ff[m
+Author: DanendraPassadhi <danendra.passadhi71@gmail.com>
+Date:   Mon Oct 16 11:13:33 2023 +0700
+
+    fix bug
+
+[33mcommit cb940fb72153ada0f328589eb6a85946403978ab[m
+Author: DanendraPassadhi <danendra.passadhi71@gmail.com>
+Date:   Mon Oct 16 11:11:36 2023 +0700
+
+    fix bug
+
+[33mcommit e7fcfc19b1c2ce54c887c4f94c6ffaea00b63afa[m
+Author: Akhmad Aakhif A <89376322+Khip01@users.noreply.github.com>
+Date:   Mon Oct 16 07:28:42 2023 +0700
+
+    Update README.md
+
+[33mcommit b61cefc72c0353deb263570f26cc8c2c6255c20c[m
+Author: DanendraPassadhi <143127813+DanendraPassadhi@users.noreply.github.com>
+Date:   Sun Oct 15 21:17:48 2023 +0700
+
+    Update README.md
+
+[33mcommit d2951a14e61ef048f23535ac38d416d21f53ccb4[m
+Merge: 71f911d 56c7a42
+Author: DanendraPassadhi <143127813+DanendraPassadhi@users.noreply.github.com>
+Date:   Sun Oct 15 19:03:27 2023 +0700
+
+    Merge pull request #11 from Dhnillhaq/Aakhif
+    
+    feat: Fix Lending Book Feature
+
+[33mcommit 56c7a42c46b1473727965f3cc9033e1ae96c317f[m
+Merge: 82811f4 71f911d
+Author: Akhmad Aakhif A <89376322+Khip01@users.noreply.github.com>
+Date:   Sun Oct 15 14:58:02 2023 +0700
+
+    Merge branch 'main' into Aakhif
+
+[33mcommit d93a82d4ec0b2fc3cab6e02d8fe5ecb0bfd7ad34[m
+Merge: 881aeaa c98e042
+Author: DanendraPassadhi <143127813+DanendraPassadhi@users.noreply.github.com>
+Date:   Sun Oct 15 14:17:36 2023 +0700
+
+    Merge pull request #12 from DanendraPassadhi/Danendra
+    
+    Memasukkan fitur Buku Digital dalam case
+
+[33mcommit 71f911dcffafb893c9267f707ee6f6d8e8385441[m
+Merge: 1bc8e74 881aeaa
+Author: DanendraPassadhi <143127813+DanendraPassadhi@users.noreply.github.com>
+Date:   Sun Oct 15 14:00:23 2023 +0700
+
+    Merge pull request #8 from Dhnillhaq/Danendra
+    
+    Danendra
+
+[33mcommit c98e0423a27e9526cb4f12d719bc673d4a760e7c[m
+Author: DanendraPassadhi <danendra.passadhi71@gmail.com>
+Date:   Sun Oct 15 13:58:33 2023 +0700
+
+    Memasukkan fitur Buku Digital dalam case
+
+[33mcommit 1bc8e74ffbf5b4de3e0186c9a3d6992049dad247[m
+Merge: bb11e0b d2524e1
+Author: Dhanil <yakulhaq@gmail.com>
+Date:   Sun Oct 15 06:23:55 2023 +0700
+
+    Merge pull request #9 from Dhnillhaq/Dhanil
+    
+    feat(Dhanil):Add Book Search Feature
+
+[33mcommit 82811f4750a617c385181033198941ed8814d67b[m
+Merge: b9ea7c2 382532c
+Author: Akhmad Aakhif A <89376322+Khip01@users.noreply.github.com>
+Date:   Sat Oct 14 18:36:24 2023 +0700
+
+    Merge pull request #10 from Khip01/Aakhif
+    
+    Feat(Validation Menu): Fix Input Conflict
+
+[33mcommit 382532c79b566e1756d3f34c33b5852bb97de58e[m
+Merge: 722f560 b9ea7c2
+Author: Khip01 <aakhifathallah24@gmail.com>
+Date:   Sat Oct 14 18:26:11 2023 +0700
+
+    Merge branch 'Aakhif' of https://github.com/Khip01/Project-Sistem-Peminjaman into Aakhif
+
+[33mcommit 722f560bffbdf515b0756db97a2a446551c521d5[m
+Author: Khip01 <aakhifathallah24@gmail.com>
+Date:   Sat Oct 14 18:25:32 2023 +0700
+
+    feat(Validation Menu): Fix 
